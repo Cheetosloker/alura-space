@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
 
-<<<<<<< HEAD
 
 def index(request):
     
@@ -11,7 +10,5 @@ def index(request):
 }
     return render(request, 'galeria/index.html', {"cards": dados})
 
-=======
->>>>>>> 4e781bc7f691b296f054075c880b31e629d03839
 def imagem(request):
     return render(request, 'galeria/imagem.html')
